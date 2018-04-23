@@ -1,0 +1,20 @@
+name:                prim-defaults
+version:             0.1.0.0
+synopsis:            primitive typeclass defaults
+homepage:            https://github.com/chessai/prim-defaults.git
+license:             BSD3
+license-file:        LICENSE
+author:              Andrew Martin
+maintainer:          chessai <chessai1996@gmail.com>
+category:            Data
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Prim
+  build-depends:
+      base >=4.7 && < 5.0
+    , ghc-prim
+    , primitive
+  default-language:    Haskell2010
